@@ -1,0 +1,53 @@
+body{
+    background-image: url("./bg (1).png");
+    background-position: center;
+    overflow: hidden;
+}
+*{
+    font-family:'Unbounded', cursive;;
+    text-decoration: none;
+    background-repeat: no-repeat;
+}
+h1,h4{
+    color: white;
+    font-family: 'Russo One', sans-serif;
+}
+.main .shift1{
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    margin-left: 2vw;
+}
+.main{
+    margin-left: 30vw;
+    margin-top:  20vh ;
+}
+.main .shift{
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    font-size: 60px;
+}
+.main h4{
+    font-size: larger;
+    margin-left: 5vw;
+}
+.main button{
+   font-size: 20px;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 1;
+    font-weight: 900px;
+}
+.elements a{
+    color:white;
+    text-decoration: none;
+}
+.main button:hover{
+    opacity:1;
+    cursor: pointer;
+    font-weight: 900px;
+}
+.header .elements a:hover{
+    color:purple;
+    opacity: .8;
+}

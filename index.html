@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" 
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@1,600&family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@1,600&family=Russo+One&family=Unbounded:wght@500&display=swap" rel="stylesheet">
+          
+    <link rel="stylesheet" href="style.css">
+    <!--BootStrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    .image{
+        display:inline;
+    }
+    .header{
+        display: flex;
+        background-color: black;
+        align-items: center;
+        
+    }
+    .elements{
+        color:white;
+        margin-left: 40px;
+    }
+    .image{
+        margin-left: 2vw;
+        padding-left: 2vw;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+    button{
+         margin-left:70vh;
+         background-color: purple;
+         color: white;
+         border-radius: .5em;
+         font-family: 'Times New Roman', Times, serif;
+         height: 35px;
+         width: 150px;
+         opacity: .8;
+        }
+    @media(max-width:576px){
+        .header .elements a{
+            display : none;
+        }
+    }
+  </style>  
+
+</head>
+<body style="min-height: 100vh; min-width: 100vw;">
+    <div class="header">
+        <div class="image">
+            <img src="./white-logo.png" alt="Logo"/>
+        </div>
+        <div class="elements"><a href="#"> Apps</a></div>
+        <div class="elements"><a href="#">DAO</a> </div>
+        <div class="elements"><a href="#">Technology</a> </div>
+        <div class="elements"><a href="#">Token</a> </div>
+        <div class="elements"><a href="#">Contributors</a> </div>
+        <div class="button"><button>Buy 1 Token</button></div>
+    </div>
+    <section class="main">
+        <h1 style="font-size: 55px;">
+          <span class="shift1">Lets build a better</span>
+          <br><span class="shift">tomorrow,together.</span> 
+        </h1>
+        <h4>Buy 1 Token. Join the DAO. Change the world</h4>
+        <button style="margin-left: 200px; margin-top: 35px; width:15vw ; height:50px; " id="Start">Request Early Access</button>
+    </section>
+
+</body>
+</html>
